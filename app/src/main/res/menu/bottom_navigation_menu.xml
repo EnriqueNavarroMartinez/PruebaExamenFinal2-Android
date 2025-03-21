@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item
+        android:id="@+id/navigation_api"
+        android:title="Api"
+        android:icon="@drawable/ic_launcher_background" />
+        -->
+    <item
+        android:id="@+id/navigation_room"
+        android:title="Room"
+        android:icon="@drawable/ic_launcher_background" />
+    <item
+        android:id="@+id/navigation_eventos1"
+        android:title="Evento foto y dialogo"
+        android:icon="@drawable/ic_launcher_background" />
+    <item
+        android:id="@+id/navigation_eventos2"
+        android:title="Evento foto y toast"
+        android:icon="@drawable/ic_launcher_background" />
+    <item
+        android:id="@+id/navigation_eventos3"
+        android:title="Evento otra activity"
+        android:icon="@drawable/ic_launcher_background" />
+    <item
+        android:id="@+id/navigation_eventos4"
+        android:title="Evento otro fragment"
+        android:icon="@drawable/ic_launcher_background" />
+</menu>
+

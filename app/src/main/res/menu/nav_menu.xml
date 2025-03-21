@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/api"
+            android:icon="@drawable/portada_rickand_morty"
+            android:title="ApiFraagment"/>
+
+        <item
+            android:id="@+id/room"
+            android:icon="@drawable/portada_rickand_morty"
+            android:title="RoomFragment"/>
+
+        <item
+            android:id="@+id/eventos1"
+            android:icon="@drawable/portada_rickand_morty"
+            android:title="FragmentEventos1"/>
+
+        <item
+            android:id="@+id/eventoss2"
+            android:icon="@drawable/portada_rickand_morty"
+            android:title="Fragment eventos 2"/>
+
+        <item
+            android:id="@+id/eventos3"
+            android:icon="@drawable/portada_rickand_morty"
+            android:title="Fragment eventos 3"/>
+
+        <item
+            android:id="@+id/eventos4"
+            android:icon="@drawable/portada_rickand_morty"
+            android:title="Fragment eventos 4"/>
+
+        <item
+            android:id="@+id/activity2"
+            android:icon="@drawable/portada_rickand_morty"
+            android:title="Activity2"/>
+
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/portada_rickand_morty"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>
